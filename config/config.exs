@@ -8,7 +8,7 @@ config :scenic, :assets, module: Defender.Assets
 # Configure the main viewport for the Scenic application
 config :defender, :viewport,
   name: :main_viewport,
-  size: {800, 600},
+  size: {1200, 900},
   theme: :dark,
   default_scene: Defender.Scene.Home,
   drivers: [
